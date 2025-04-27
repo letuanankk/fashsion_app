@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1011721109866",
+    "project_id": "milktea-8067e",
+    "storage_bucket": "milktea-8067e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011721109866:android:c3bb724b72b3ad5124a513",
+        "android_client_info": {
+          "package_name": "com.example.milktea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011721109866-jn5129aa8m386o272v34ut42v8419dav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpkKzlbz1LJAke6Y0wJTYe0qmbYmHVEYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011721109866-jn5129aa8m386o272v34ut42v8419dav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011721109866:android:957f5fdaf31abc0724a513",
+        "android_client_info": {
+          "package_name": "com.example.my_shop_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011721109866-jn5129aa8m386o272v34ut42v8419dav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpkKzlbz1LJAke6Y0wJTYe0qmbYmHVEYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011721109866-jn5129aa8m386o272v34ut42v8419dav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
