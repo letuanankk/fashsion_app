@@ -5,7 +5,7 @@ class AddToCartReq {
   final String productTitle;
   final int productQuantity;
   final String productColor;
-  final String productSize;
+  final int productSize;
   final double productPrice;
   final double totalPrice;
   final String productImage;

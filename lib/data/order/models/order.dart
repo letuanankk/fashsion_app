@@ -1,5 +1,5 @@
 import '/../../data/order/models/order_status.dart';
-import '/../../domain/order/entities/order.dart';
+import '../entities/order.dart';
 import 'product_ordered.dart';
 
 class OrderModel {

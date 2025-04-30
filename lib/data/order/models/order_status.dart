@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import '/domain/order/entities/order_status.dart';
+import '../entities/order_status.dart';
 
 class OrderStatusModel {
   final String title;

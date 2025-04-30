@@ -1,14 +1,12 @@
-import '/../../domain/auth/entity/user.dart';
-
 class UserModel {
   String userId;
   String firstName;
   String lastName;
   String? email;
+  String? password;
   String? phoneNumber;
   String? address;
   String image;
-  int? gender;
 
   UserModel({
     required this.userId,
@@ -17,8 +15,8 @@ class UserModel {
     this.phoneNumber,
     this.address,
     this.email,
+    this.password,
     required this.image,
-    this.gender,
   });
 
   Map<String, dynamic> toMap() {
@@ -29,8 +27,8 @@ class UserModel {
       'phoneNumber': phoneNumber,
       'address': address,
       'email': email,
+      'password': password,
       'image': image,
-      'gender': gender,
     };
   }
 
@@ -42,23 +40,9 @@ class UserModel {
       email: map['email'] as String,
       phoneNumber: map['phoneNumber'] ?? '',
       address: map['address'] ?? '',
+      password: map['password'] ?? '',
       image: map['image'] ?? '',
-      gender: map['gender'] as int,
     );
   }
 }
 
-extension UserXModel on UserModel {
-  UserEntity toEntity() {
-    return UserEntity(
-      userId: userId,
-      firstName: firstName,
-      lastName: lastName,
-      phoneNumber: phoneNumber,
-      address: address,
-      email: email!,
-      image: image,
-      gender: gender!,
-    );
-  }
-}

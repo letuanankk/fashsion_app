@@ -5,8 +5,6 @@ class UserCreationReq {
   String ? password;
   String? phoneNumber;
   String? address;
-  int ? gender;
-  String ? age;
 
   UserCreationReq({
     required this.firstName,

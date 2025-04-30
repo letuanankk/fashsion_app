@@ -2,7 +2,7 @@
 
 import '/../../data/order/models/product_ordered.dart';
 
-import '../../../domain/order/entities/product_ordered.dart';
+import '../entities/product_ordered.dart';
 import 'order_status.dart';
 
 class OrderRegistrationReq {

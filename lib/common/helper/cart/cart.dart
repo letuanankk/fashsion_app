@@ -1,4 +1,4 @@
-import '../../../domain/order/entities/product_ordered.dart';
+import '../../../data/order/entities/product_ordered.dart';
 
 class CartHelper {
 

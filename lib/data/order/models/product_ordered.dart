@@ -1,12 +1,12 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import '/../../domain/order/entities/product_ordered.dart';
+import '../entities/product_ordered.dart';
 
 class ProductOrderedModel {
   final String productId;
   final String productTitle;
   final int productQuantity;
   final String productColor;
-  final String productSize;
+  final int productSize;
   final double productPrice;
   final double totalPrice;
   final String productImage;
@@ -33,7 +33,7 @@ class ProductOrderedModel {
       productTitle: map['productTitle'] as String,
       productQuantity: map['productQuantity'] as int,
       productColor: map['productColor'] as String,
-      productSize: map['productSize'] as String,
+      productSize: map['productSize'] as int,
       productPrice: map['productPrice'] as double,
       totalPrice: map['totalPrice'] as double,
       productImage: map['productImage'] as String,

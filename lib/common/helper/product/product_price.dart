@@ -1,4 +1,4 @@
-import '/../../domain/product/entities/product.dart';
+import '../../../data/product/entities/product.dart';
 
 class ProductPriceHelper {
 
